@@ -1,0 +1,98 @@
+body{
+    background-image: url(blue-smooth-wall-textured-background_53876-106133.avif);
+}
+.topnav{
+    background-color: #EDCD44;
+    overflow: hidden;
+    margin-left: 50%;
+    border-radius: 40px;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    flex: wrap;
+    justify-content: space-around;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.main{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+p{
+    font-size:40px;
+    padding: 40px;
+}
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  div{
+    text-align: center;
+  }
+  /* style for about us page*/
+  .first{
+    background-color: #000000;
+    color: #ff0000;
+    font-size: 40px;
+    text-align: center;
+  }
+  .second , .third,.education{
+  margin: 10px;
+  padding: 10px;
+  border: 10px;
+  text-align: center;
+  text-decoration: solid;
+  font-size: 20px;
+  color: #fbfbfb;
+  }
+  .link,.youtube,.linkdin, .twitter,.facebook,.instagram,.github,.whatsapp{
+  text-align: center;
+  display: flex;
+  margin: 20px;
+  border-radius: 20pt;
+  padding: 10px;
+  size: 30px;
+  }
+  h1{
+  font-size: 30px;
+  color: rgb(166, 47, 47);
+  }
+  h1{
+    display:inline-block;
+  }
+  li{
+    padding: auto;
+    margin-left: auto;
+    font-size: 25px;
+    color: #fbfbfb;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+  }
+  i{
+    font-size: 25px;
+  }
