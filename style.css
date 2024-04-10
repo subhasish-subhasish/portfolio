@@ -1,5 +1,4 @@
 body{
-    background-image: url(235369-polygon-mountains-minimalist-hd-artist-4k-wallpaper-image.jpg);
     padding: 10px;
     background-size: 100%;
 }
@@ -95,14 +94,54 @@ body{
   .address{
     font-size: 20px;
   }
-  .link,.youtube,.linkdin, .twitter,.facebook,.instagram,.github,.whatsapp{
-    text-align: center;
-    display: flex;
-    margin: 20px;
-    border-radius: 20pt;
-    padding: 10px;
-    size: 30px;
+  .youtube,.linkdin, .twitter,.facebook,.instagram,.github,.whatsapp{
+      padding: 20px;
+      margin: 20px;
+      background-color: #169deb;
+      border-radius: 100%;
     }
+    .fromHead{
+      margin: 0px;
+      padding: 20px;
+      margin-top: auto;
+    }
+
+
+
+
+/* form   */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+/*footer*/
+footer{
+  display: flex;
+  align-items: center;
+}
   @media only screen and (max-width: 600px){
     .topnav{
       flex-direction: column;
